@@ -28,10 +28,10 @@
 #loaderText::after {
   content: "";
   position: absolute;
-  bottom: -10px; /* space below text */
+  bottom: -10px;
   left: 0;
   height: 10px;
   width: 100%;
-  background-color: #4fc3f7; /* custom underline color */
+  background-color: #4fc3f7;
   border-radius: 5px;
 }

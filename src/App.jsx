@@ -9,12 +9,12 @@ const App = () => {
 
   useEffect(() => {
     const fadeOutTimer = setTimeout(() => {
-      setFadeOutLoader(true); // start fade out
+      setFadeOutLoader(true);
     }, 1500);
 
     const hideLoaderTimer = setTimeout(() => {
-      setShowLoader(false); // remove loader from DOM
-    }, 1800); // match the duration of the fade-out CSS animation
+      setShowLoader(false);
+    }, 1800);
 
     return () => {
       clearTimeout(fadeOutTimer);

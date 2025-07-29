@@ -11,7 +11,7 @@ const Loader = () => {
         setCount((prev) => prev + 1);
       }, 100);
 
-      return () => clearInterval(interval); // Clear on each update
+      return () => clearInterval(interval);
     }
   }, [count]);
 
