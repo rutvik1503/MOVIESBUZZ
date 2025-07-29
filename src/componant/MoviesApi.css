@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* Anyone can not copy any text */
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  scroll-behavior: smooth;
+}
+
+.heroSection {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: rgb(35, 35, 35);
+}
+
+.heroSection .heading {
+  width: 100%;
+  height: 80px;
+  background: none;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.5); */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-inline: 25px;
+  position: fixed;
+  z-index: 50;
+  backdrop-filter: blur(15px);
+}
+
+.heroSection .heading a{
+    text-decoration: none;
+}
+
+.heroSection .heading a h1 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.heroSection .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 25px;
+  padding-top: 105px;
+}
+
+.heroSection .container .movieBox {
+  width: 270px;
+  height: auto;
+  padding: 15px;
+  border-radius: 12.5px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  background-color: rgb(50, 50, 50);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2);
+  flex-direction: column;
+  transition: 0.5s;
+  cursor: default;
+}
+
+.heroSection .container .movieBox:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.5);
+}
+
+.heroSection .container .movieBox img {
+  width: 100%;
+  height: 355px;
+  border-radius: 7.5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.heroSection .container .movieBox h1 {
+  color: #4fc3f7;
+  font-size: 16px;
+  letter-spacing: 0.75px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.heroSection .container .movieBox p {
+  color: #b0bec5;
+  font-size: 12.5px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-align: justify;
+}
+
+.heroSection .container .movieBox p:nth-of-type(1){
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(240, 240, 240);
+}
+
+.heroSection .container .movieBox p:nth-of-type(3){
+    color:  #ffd54f;
+    font-weight: 400;
+}
+.heroSection .container .movieBox p:nth-of-type(2)  {
+  font-size: 14px;
+  font-weight: 500;
+  color:  #00e676;
+}
+
+.heroSection .showMoreBtn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.heroSection .showMoreBtn button{
+    width: auto;
+    height: 40px;
+    background: none;
+    border: 1px solid white;
+    padding-inline: 50px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    border-radius: 7.5px;
+    transition: 0.5s;
+}
+
+.heroSection .showMoreBtn button:hover{
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+
+.heroSection .showMoreBtn button:focus{
+    outline: none;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+#down{
+    text-decoration: none;
+}
+
+#down button{
+    width: auto;
+    height: 40px;
+    background: none;
+    border: 1px solid white;
+    padding-inline: 50px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    border-radius: 7.5px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 50;
+    backdrop-filter: blur(15px);
+    transition: 0.5s;
+}
+
+#down button:hover{
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+
+#down button:focus{
+    outline: none;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
