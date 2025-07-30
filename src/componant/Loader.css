@@ -16,7 +16,7 @@
 
 #loaderText {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 35px;
   font-weight: 900;
   color: white;
   letter-spacing: 2.5px;
@@ -38,8 +38,7 @@
 
 @media (min-width : 640px) {
   #loaderText{
-    font-size: 30px;
-    color: red;
+    font-size: 50px;
   }
   #loaderText::after{
     height: 7.5px;
