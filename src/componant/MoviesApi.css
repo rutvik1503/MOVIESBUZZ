@@ -190,3 +190,77 @@
     color: black;
     font-weight: 500;
 }
+
+
+@media (max-width: 479px) {
+  .heroSection .container{
+    grid-template-columns: 1fr;
+    padding-inline: 60px;
+  }
+  .heroSection .showMoreBtn button{
+    padding-inline: 15px;
+    font-size: 12.5px;
+  }
+  #down button{
+    padding-inline: 15px;
+    font-size: 10px;
+    bottom: 25px;
+    right: 10px;
+  }
+}
+
+/* Small devices (phones) */
+@media (min-width: 480px) {
+  .heroSection .container{
+    grid-template-columns: 1fr;
+    padding-inline: 75px;
+  }
+  .heroSection .showMoreBtn button{
+    padding-inline: 25px;
+    font-size: 12.5px;
+  }
+  #down button{
+    padding-inline: 17.5px;
+    font-size: 11px;
+    bottom: 25px;
+    right: 10px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  .heroSection .container{
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 50px;
+    gap: 50px;
+  }
+  .heroSection .showMoreBtn button{
+    padding-inline: 25px;
+    font-size: 12.5px;
+  }
+  #down button{
+    padding-inline: 25px;
+    font-size: 12.5px;
+    bottom: 25px;
+    right: 25px;
+  }
+}
+
+/* Large devices (laptops/desktops) */
+@media (min-width: 992px) {
+  .heroSection .container{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-inline: 25px;
+    gap: 25px;
+  }
+  .heroSection .showMoreBtn button{
+    padding-inline: 50px;
+    font-size: 15px;
+  }
+  #down button{
+    padding-inline: 50px;
+    font-size: 15px;
+    bottom: 25px;
+    right: 25px;
+  }
+}

@@ -35,3 +35,68 @@
   background-color: #4fc3f7;
   border-radius: 5px;
 }
+
+@media (max-width: 479px) {
+  #loaderText {
+    font-size: 40px;
+    letter-spacing: 0.5px;
+  }
+  #loaderText::after {
+    height: 2.5px;
+  }
+}
+
+/* Small devices (phones) */
+@media (min-width: 480px) {
+  #loaderText {
+    font-size: 50px;
+    letter-spacing: 0.75px;
+  }
+  #loaderText::after {
+    height: 3.5px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  #loaderText {
+    font-size: 60px;
+    letter-spacing: 1px;
+  }
+  #loaderText::after {
+    height: 5px;
+  }
+}
+
+/* Large devices (laptops/desktops) */
+@media (min-width: 992px) {
+  #loaderText{
+    font-size: 80px;
+    letter-spacing: 1.5px;
+  }
+  #loaderText::after{
+    height: 8.5px;
+  }
+}
+
+/* Extra large (widescreens) */
+@media (min-width: 1200px) {
+  #loaderText{
+    font-size: 110px;
+    letter-spacing: 2.5px;
+  }
+  #loaderText::after{
+    height: 10px;
+  }
+}
+
+/* 2XL - very large screens */
+@media (min-width: 1400px) {
+  #loaderText{
+    font-size: 125px;
+    letter-spacing: 3.5px;
+  }
+  #loaderText::after{
+    height: 12.5px;
+  }
+}
