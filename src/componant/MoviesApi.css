@@ -48,17 +48,16 @@
 .heroSection .container {
   width: 100%;
   height: auto;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 30px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 25px;
   padding: 25px;
   padding-top: 105px;
 }
 
 .heroSection .container .movieBox {
-  width: 270px;
+  width: 100%;
   height: auto;
   padding: 15px;
   border-radius: 12.5px;
@@ -83,7 +82,7 @@
   height: 355px;
   border-radius: 7.5px;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
 }
 
 .heroSection .container .movieBox h1 {
