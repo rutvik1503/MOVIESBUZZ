@@ -35,3 +35,31 @@
   background-color: #4fc3f7;
   border-radius: 5px;
 }
+
+/* Small phones */
+@media (max-width: 480px) {
+  #loaderText {
+    font-size: 2rem;
+  }
+}
+
+/* Phones and small tablets */
+@media (max-width: 767px) {
+  #loaderText {
+    font-size: 3rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  #loaderText {
+    font-size: 4rem;
+  }
+}
+
+/* Laptops */
+@media (max-width: 1200px) {
+  #loaderText {
+    font-size: 5rem;
+  }
+}

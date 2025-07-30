@@ -191,3 +191,119 @@
     color: black;
     font-weight: 500;
 }
+
+/* Extra Small Devices (phones < 480px) */
+@media (max-width: 480px) {
+  .heroSection .heading a h1 {
+    font-size: 22px;
+  }
+
+  .heroSection .container {
+    justify-content: center;
+    padding: 15px;
+    padding-top: 100px;
+  }
+
+  .heroSection .container .movieBox {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .heroSection .container .movieBox img {
+    height: 250px;
+  }
+
+  .heroSection .container .movieBox h1 {
+    font-size: 14px;
+  }
+
+  .heroSection .container .movieBox p {
+    font-size: 11px;
+  }
+
+  .heroSection .container .movieBox p:nth-of-type(1),
+  .heroSection .container .movieBox p:nth-of-type(2) {
+    font-size: 12px;
+  }
+
+  .heroSection .showMoreBtn button,
+  #down button {
+    padding-inline: 25px;
+    font-size: 13px;
+  }
+
+  #down button {
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+/* Small Devices (phones and small tablets < 768px) */
+@media (max-width: 767px) {
+  .heroSection .heading a h1 {
+    font-size: 26px;
+  }
+
+  .heroSection .container {
+    justify-content: center;
+    padding: 20px;
+    padding-top: 100px;
+  }
+
+  .heroSection .container .movieBox {
+    width: 90%;
+  }
+
+  .heroSection .container .movieBox img {
+    height: 280px;
+  }
+
+  .heroSection .container .movieBox h1 {
+    font-size: 15px;
+  }
+
+  .heroSection .container .movieBox p {
+    font-size: 12px;
+  }
+
+  .heroSection .showMoreBtn button,
+  #down button {
+    font-size: 14px;
+  }
+}
+
+/* Medium Devices (tablets < 1024px) */
+@media (max-width: 1024px) {
+  .heroSection .heading a h1 {
+    font-size: 30px;
+  }
+
+  .heroSection .container {
+    gap: 20px;
+    padding: 20px;
+    padding-top: 100px;
+  }
+
+  .heroSection .container .movieBox {
+    width: 45%;
+  }
+
+  .heroSection .container .movieBox img {
+    height: 300px;
+  }
+}
+
+/* Large Devices (small laptops < 1200px) */
+@media (max-width: 1200px) {
+  .heroSection .heading a h1 {
+    font-size: 35px;
+  }
+
+  .heroSection .container .movieBox {
+    width: 220px;
+  }
+
+  .heroSection .container .movieBox img {
+    height: 320px;
+  }
+}
