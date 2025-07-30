@@ -244,12 +244,6 @@
     font-size: 26px;
   }
 
-  .heroSection .container {
-    justify-content: center;
-    padding: 20px;
-    padding-top: 100px;
-  }
-
   .heroSection .container .movieBox {
     width: 90%;
   }
@@ -285,7 +279,7 @@
   }
 
   .heroSection .container .movieBox {
-    width: 45%;
+    width: 48%;
   }
 
   .heroSection .container .movieBox img {
@@ -300,10 +294,11 @@
   }
 
   .heroSection .container .movieBox {
-    width: 220px;
+    width: 240px;
   }
 
   .heroSection .container .movieBox img {
     height: 320px;
   }
 }
+

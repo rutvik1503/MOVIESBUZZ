@@ -36,30 +36,35 @@
   border-radius: 5px;
 }
 
+/* Base */
+#loaderText {
+  font-size: 100px;
+}
+
 /* Small phones */
 @media (max-width: 480px) {
   #loaderText {
-    font-size: 2rem;
+    font-size: 32px;
   }
 }
 
 /* Phones and small tablets */
 @media (max-width: 767px) {
   #loaderText {
-    font-size: 3rem;
+    font-size: 48px;
   }
 }
 
 /* Tablets */
 @media (max-width: 1024px) {
   #loaderText {
-    font-size: 4rem;
+    font-size: 64px;
   }
 }
 
 /* Laptops */
 @media (max-width: 1200px) {
   #loaderText {
-    font-size: 5rem;
+    font-size: 80px;
   }
 }
