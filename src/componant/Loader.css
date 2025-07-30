@@ -38,7 +38,7 @@
 
 @media (min-width : 640px) {
   #loaderText{
-    font-size: 50px;
+    font-size: 30px;
   }
   #loaderText::after{
     height: 7.5px;
