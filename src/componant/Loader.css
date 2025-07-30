@@ -16,7 +16,7 @@
 
 #loaderText {
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 100px;
   font-weight: 900;
   color: white;
   letter-spacing: 2.5px;
@@ -30,7 +30,7 @@
   position: absolute;
   bottom: -10px;
   left: 0;
-  height: 5px;
+  height: 10px;
   width: 100%;
   background-color: #4fc3f7;
   border-radius: 5px;
